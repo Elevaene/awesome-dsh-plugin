@@ -1,0 +1,6 @@
+url: https://github.com/Elevaene/dsh-compat-gate
+name: Elevaene/dsh-compat-gate
+category: dev
+description:
+  en: "Checks every installed plugin against the dsh version an update would move you to and says which ones would stop working before you install it; re-checks them against the host you are running afterwards, and warns when a plugin release is still inside pnpm's minimum-release-age window."
+  zh: "在你安装 dsh 更新之前，把已装插件逐个对着目标版本算一遍还能不能用；更新后再对着实际运行的宿主复核，并提示还在 pnpm 最短发布等待期内的插件版本。"
